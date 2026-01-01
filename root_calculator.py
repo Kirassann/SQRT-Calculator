@@ -96,7 +96,6 @@ KV = '''
             valign: 'middle'
             text_size: self.size
 
-    # Зона результата
     RelativeLayout:
         size_hint_y: 1
         canvas.before:
@@ -106,7 +105,6 @@ KV = '''
                 pos: self.pos
                 size: self.size
 
-        # Плавающая карточка результата, будет анимироваться
         BoxLayout:
             id: result_card
             size_hint: (0.92, None)
