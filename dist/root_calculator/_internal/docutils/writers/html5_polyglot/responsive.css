@@ -3,7 +3,7 @@
 /*                                                                         */
 /* :Author: Günter Milde                                                   */
 /*                                                                         */
-/* :Id: $Id: responsive.css 10256 2025-11-02 17:51:21Z milde $                                                               */
+/* :Id: $Id: responsive.css 10264 2025-11-28 13:51:41Z milde $                                                               */
 /* :Copyright: © 2021 Günter Milde.                                        */
 /* :License: Released under the terms of the `2-Clause BSD license`_,      */
 /*    in short:                                                            */
@@ -134,12 +134,11 @@ hr {
 
 /* Lists */
 
+ul, ol {
+  padding-left: 2em; /* allow for 2-digit numbers */
+}
 dl.field-list.narrow {
   --field-indent: 2.4em;
-}
-
-ul, ol {
-  padding-left: 1.1em; /* indent by bullet width (Firefox, DejaVu fonts) */
 }
 dl.field-list > dd,
 dl.docinfo > dd {
@@ -204,7 +203,7 @@ figure.numbered > figcaption > p:before {
 
 table tr {
   text-align: left;
-  vertical-align: baseline;
+  vertical-align: top;
 }
 td *:first-child { margin-top: 0; }
 td *:last-child { margin-bottom: 0; }
