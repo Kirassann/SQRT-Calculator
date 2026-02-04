@@ -82,7 +82,7 @@ KV = '''
                     text_size: self.size
                     font_name: 'RobotoMono-Regular'
                 Label:
-                    text: "system@quantum:/nth_root$"
+                    text: "made by kirassan,tgc:@kirassan_jojosan"
                     color: (0, 0.8, 0.5, 0.6)
                     font_size: '11sp'
                     halign: 'left'
